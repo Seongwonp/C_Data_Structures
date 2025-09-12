@@ -1,48 +1,60 @@
-# C Data Structures & Algorithm Practice
+# 📚 C 자료구조 & 알고리즘 실습 저장소
 
-This repository contains various data structure and algorithm implementations written in **C** as part of my practice and learning in computer science and software engineering.
-
----
-
-## 📁 Folder Overview
-
-| Folder       | Description                               |
-|--------------|-------------------------------------------|
-| CardConverter| Simple card conversion logic (possibly number to card string?) |
-| Graph        | Graph structures and traversal (BFS/DFS)  |
-| Hash         | Hash table implementation and usage       |
-| Heap         | Min-heap / Max-heap operations            |
-| List         | Singly/Doubly Linked List implementations |
-| Queue        | Array-based and Linked Queue              |
-| Recursive    | Recursion-based algorithms                |
-| Set          | Set operations (union, intersection, etc) |
-| Sort         | Various sorting algorithms                |
-| Sosu         | Prime number algorithms (`소수` in Korean) |
-| Stack        | Stack implementation                      |
-| Tree         | Binary tree, traversal, etc               |
+이 저장소는 컴퓨터 과학 및 소프트웨어 공학 학습의 일환으로  
+**C 언어**를 활용해 구현한 다양한 자료구조 및 알고리즘 실습 코드들을 포함하고 있습니다.
 
 ---
 
-## 🛠️ Language & Tools
+## 📁 폴더 구성
 
-- **Language**: C
-- **Editor**: CLion/ GCC
+| 폴더명         | 설명 |
+|----------------|------|
+| CardConverter  | 숫자 → 카드 문자열 변환 로직 등 간단한 변환 예제 |
+| Graph          | 그래프 구조 및 탐색 (BFS / DFS) |
+| Hash           | 해시 테이블 구현 및 활용 |
+| Heap           | 최소 힙 / 최대 힙 연산 |
+| List           | 단일 / 이중 연결 리스트 구현 |
+| Queue          | 배열 기반 및 연결 리스트 기반 큐 |
+| Recursive      | 재귀 기반 알고리즘 예제 |
+| Set            | 집합 연산 (합집합, 교집합 등) |
+| Sort           | 다양한 정렬 알고리즘 |
+| Sosu           | 소수 판별 및 관련 알고리즘 |
+| Stack          | 스택 자료구조 구현 |
+| Tree           | 이진 트리 및 순회 알고리즘 |
 
 ---
 
-## 💡 Notes
+## 🛠️ 사용 언어 및 개발 환경
 
-- This project was done for practicing fundamental data structures and algorithms.
-- Each folder contains one or more `.c` files with commented code and examples.
-- Most of the examples are self-contained and can be compiled and run individually.
+- **언어**: C  
+- **개발 도구**: CLion / GCC / Xcode  
+- **운영체제**: macOS, Ubuntu Linux
 
 ---
 
-## 📌 How to Run
+## 💡 학습 목적
+
+- 자료구조 및 알고리즘의 기본 개념 이해  
+- C 언어 기반의 구조적 프로그래밍 연습  
+- 각 예제는 독립적으로 컴파일 및 실행 가능  
+- 코드 내 주석을 통해 동작 원리 설명 포함
+
+---
+
+## 📌 실행 방법
 
 ```bash
 gcc ./List/singly_linked_list.c -o list
 ./list
 ```
+또는 CLion, Xcode 등 IDE를 활용해 실행할 수 있습니다 :)
 
-OR use CLion or Xcode :)
+---
+
+## 🙋‍♂️ 작성자
+
+### 박성원 (Seongwon Park)
+
+- C 언어 기반 자료구조 및 알고리즘 학습
+- 컴파일러 오류 해결 및 디버깅 경험
+- 구조적 설계 및 모듈화 연습
